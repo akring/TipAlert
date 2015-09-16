@@ -13,6 +13,8 @@
 		DD69762B1BA9605700459D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6976291BA9605700459D93 /* Main.storyboard */; };
 		DD69762D1BA9605700459D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD69762C1BA9605700459D93 /* Assets.xcassets */; };
 		DD6976301BA9605700459D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD69762E1BA9605700459D93 /* LaunchScreen.storyboard */; };
+		DD69763A1BA9606300459D93 /* TipAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6976391BA9606300459D93 /* TipAlertView.m */; settings = {ASSET_TAGS = (); }; };
+		DD6976401BA963CB00459D93 /* closeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69763F1BA963CB00459D93 /* closeButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		DD69762C1BA9605700459D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD69762F1BA9605700459D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD6976311BA9605700459D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6976381BA9606300459D93 /* TipAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipAlertView.h; sourceTree = "<group>"; };
+		DD6976391BA9606300459D93 /* TipAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipAlertView.m; sourceTree = "<group>"; };
+		DD69763E1BA963CB00459D93 /* closeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = closeButton.h; sourceTree = "<group>"; };
+		DD69763F1BA963CB00459D93 /* closeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = closeButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		DD69761F1BA9605700459D93 /* TipAlertTest */ = {
 			isa = PBXGroup;
 			children = (
+				DD6976371BA9606300459D93 /* TipAlert */,
 				DD6976231BA9605700459D93 /* AppDelegate.h */,
 				DD6976241BA9605700459D93 /* AppDelegate.m */,
 				DD6976261BA9605700459D93 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				DD6976211BA9605700459D93 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD6976371BA9606300459D93 /* TipAlert */ = {
+			isa = PBXGroup;
+			children = (
+				DD6976381BA9606300459D93 /* TipAlertView.h */,
+				DD6976391BA9606300459D93 /* TipAlertView.m */,
+				DD69763E1BA963CB00459D93 /* closeButton.h */,
+				DD69763F1BA963CB00459D93 /* closeButton.m */,
+			);
+			path = TipAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD6976281BA9605700459D93 /* ViewController.m in Sources */,
+				DD69763A1BA9606300459D93 /* TipAlertView.m in Sources */,
 				DD6976251BA9605700459D93 /* AppDelegate.m in Sources */,
 				DD6976221BA9605700459D93 /* main.m in Sources */,
+				DD6976401BA963CB00459D93 /* closeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +318,7 @@
 				DD6976361BA9605700459D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
