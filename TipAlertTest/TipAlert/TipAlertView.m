@@ -112,7 +112,7 @@
 {
     UIButton *btn = [closeButton buttonWithType:UIButtonTypeSystem];
     [btn addTarget:self action:@selector(dismissAnimation) forControlEvents:UIControlEventTouchUpInside];
-    btn.frame = CGRectMake(CGRectGetMaxX(_bgImageView.frame)-13, CGRectGetMinY(_bgImageView.frame)-13, 26, 26);
+    btn.frame = CGRectMake(CGRectGetMaxX(_bgImageView.frame)-18, CGRectGetMinY(_bgImageView.frame)-10, 26, 26);
     [self addSubview:btn];
 }
 

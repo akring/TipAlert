@@ -22,7 +22,9 @@
 
 - (IBAction)showAlert:(id)sender{
     
-    TipAlertView *alert = [[TipAlertView alloc] initWithMessage:@"卖萌求鼓励\nXXX新版本用着还喜欢么，给点鼓励好不好呢？" image:[UIImage imageNamed:@"exampleImage"] buttonTitles:@[@"反馈问题",@"鼓励我们"]];
+    TipAlertView *alert = [[TipAlertView alloc] initWithMessage:@"卖萌求鼓励\nXXX新版本用着还喜欢么，给点鼓励好不好呢？"
+                                                          image:[UIImage imageNamed:@"exampleImage"]
+                                                   buttonTitles:@[@"反馈问题",@"鼓励我们"]];
     
     alert.AcceptBlock = ^(){
         
