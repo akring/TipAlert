@@ -1,6 +1,9 @@
 # TipAlert
 高仿QQ音乐的弹出框，提示用户去AppStore评分
 
+# 效果
+![效果](http://7te7sy.com1.z0.glb.clouddn.com/TipAlert.png)
+
 # 安装
 
 将`TipAlert`文件夹拖入项目即可
@@ -30,6 +33,5 @@ TipAlertView *alert = [[TipAlertView alloc] initWithMessage:@"卖萌求鼓励\nX
     [alert show];
 ```
 
-# 效果
-![效果](http://7te7sy.com1.z0.glb.clouddn.com/TipAlert.png)
+
 
