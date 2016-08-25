@@ -1,0 +1,5 @@
+language: objective-c
+
+xcode_project: TipAlertTest.xcodeproj
+
+xcode_scheme: TipAlertTest
