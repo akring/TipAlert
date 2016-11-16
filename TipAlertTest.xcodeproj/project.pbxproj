@@ -13,8 +13,8 @@
 		DD69762B1BA9605700459D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6976291BA9605700459D93 /* Main.storyboard */; };
 		DD69762D1BA9605700459D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD69762C1BA9605700459D93 /* Assets.xcassets */; };
 		DD6976301BA9605700459D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD69762E1BA9605700459D93 /* LaunchScreen.storyboard */; };
-		DD69763A1BA9606300459D93 /* TipAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6976391BA9606300459D93 /* TipAlertView.m */; settings = {ASSET_TAGS = (); }; };
-		DD6976401BA963CB00459D93 /* closeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69763F1BA963CB00459D93 /* closeButton.m */; settings = {ASSET_TAGS = (); }; };
+		DD69763A1BA9606300459D93 /* TipAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6976391BA9606300459D93 /* TipAlertView.m */; };
+		DD6976401BA963CB00459D93 /* closeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69763F1BA963CB00459D93 /* closeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -281,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TipAlertTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Akring.TipAlertTest;
@@ -292,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TipAlertTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Akring.TipAlertTest;
