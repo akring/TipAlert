@@ -128,6 +128,8 @@
 				TargetAttributes = {
 					DD69761C1BA9605700459D93 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = XE778GA928;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -281,11 +283,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = XE778GA928;
 				INFOPLIST_FILE = TipAlertTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Akring.TipAlertTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10bfd466-a59c-4f70-82a8-3f3b72a23ba4";
+				PROVISIONING_PROFILE_SPECIFIER = TipAlertDis;
 			};
 			name = Debug;
 		};
@@ -293,11 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = XE778GA928;
 				INFOPLIST_FILE = TipAlertTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Akring.TipAlertTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10bfd466-a59c-4f70-82a8-3f3b72a23ba4";
+				PROVISIONING_PROFILE_SPECIFIER = TipAlertDis;
 			};
 			name = Release;
 		};
